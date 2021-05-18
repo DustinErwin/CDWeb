@@ -250,7 +250,7 @@ li a:hover {
   min-height: 500px;
   background-color: #000000;
 
-  background-position: left, right;
+  background-position: left top, right top;
   background-repeat: no-repeat;
   background-size: 23%;
 }
