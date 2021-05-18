@@ -1,0 +1,335 @@
+body {
+  background-color: #000000;
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background-image: url("../assets/images/chromdrag.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+-webkit-scrollbar.body {
+  display: none;
+}
+
+ul {
+  z-index: 2;
+
+  height: 4em;
+  width: 100%;
+  margin: 0 0 4em 0;
+  padding: 0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+
+  overflow: hidden;
+  background-color: #500101;
+}
+
+li {
+  margin: 0 2%;
+}
+
+li a {
+  font-size: large;
+  color: rgb(170, 170, 170);
+  margin: auto;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.intro {
+  opacity: 0.9;
+  background-color: #500101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 900px;
+}
+
+#logo {
+  border-radius: 50%;
+}
+
+#rpg-start {
+  position: relative;
+  top: -12em;
+}
+
+#rpg {
+  border: #000000 solid 4px;
+  background-image: url("./images/roleplaying.jpg");
+
+  min-height: 500px;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.rpg-info {
+  border-left: #000000 solid 2px;
+  font-size: xx-large;
+  background-color: #500101;
+  min-height: 500px;
+  margin: 0 0 0 50%;
+}
+
+#inbetweenone {
+  border: #000000 solid 2px;
+  background-image: url("./images/Rise_of_tiamat.jpg");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#inbetweentwo {
+  border: #000000 solid 2px;
+  background-image: url("./images/maxresdefault.jpg");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inbetweenthree {
+  border: #000000 solid 2px;
+  background-image: url("./images/cdepic.jpeg");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#inbetweenfour {
+  border: #000000 solid 2px;
+  background-image: url("./images/cdbreathefire.png");
+
+  min-height: 600px;
+
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#board-start {
+  position: relative;
+  top: -12em;
+}
+
+#board {
+  border: #000000 solid 2px;
+  background-image: url("./images/boardgames.jpg");
+
+  min-height: 500px;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.board-info {
+  border-right: #000000 solid 2px;
+  font-size: xx-large;
+  background-color: #500101;
+  min-height: 500px;
+  margin: 0 50% 0 0;
+}
+
+#tabletop-start {
+  position: relative;
+  top: -12em;
+}
+
+#tabletop {
+  border: #000000 solid 2px;
+  background-image: url("./images/tabletop.jpg");
+
+  min-height: 500px;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.table-info {
+  border-left: #000000 solid 2px;
+  font-size: xx-large;
+  background-color: #500101;
+  min-height: 500px;
+  margin: 0 0 0 50%;
+}
+
+#card-start {
+  position: relative;
+  top: -12em;
+}
+
+#card {
+  border: #000000 solid 2px;
+  background-image: url("./images/boardgames.jpg");
+
+  min-height: 500px;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.card-info {
+  border-right: #000000 solid 2px;
+  font-size: xx-large;
+  background-color: #500101;
+  min-height: 500px;
+  margin: 0 50% 0 0;
+}
+
+#access-start {
+  position: relative;
+  top: -12em;
+}
+
+#accessories {
+  border: #000000 solid 2px;
+  background-image: url("./images/junkaccess.jpg");
+
+  min-height: 500px;
+  background-color: #000000;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.access-info {
+  border-left: #000000 solid 2px;
+  font-size: xx-large;
+  background-color: #500101;
+  min-height: 500px;
+  margin: 0 0 0 50%;
+}
+
+#about {
+  border: #000000 solid 2px;
+  background-image: url("./images/scott.png"), url("./images/jeremy.jpg");
+
+  min-height: 500px;
+  background-color: #000000;
+
+  background-position: left, right;
+  background-repeat: no-repeat;
+  background-size: 23%;
+}
+
+.about-info {
+  border-left: #000000 solid 2px;
+  border-right: #000000 solid 2px;
+  font-size: xx-large;
+  background-color: #500101;
+  min-height: 500px;
+  width: 50%;
+  margin: auto;
+}
+
+.project:hover > .hide {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hide {
+  margin: 0;
+  display: none;
+}
+
+.project:hover > .project-link {
+  border: solid 4px rgb(76, 18, 236);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+
+.move-in {
+  margin-left: 10%;
+  margin-right: 10%;
+
+  position: relative;
+  animation: upIn 1s ease-out forwards;
+}
+
+.font-style {
+  text-align: center;
+  font-family: "Fondamento";
+  color: rgb(255, 245, 230);
+}
+
+.line-break {
+  border-width: 0;
+  background-color: rgb(8, 8, 8);
+  max-width: 25%;
+  height: 3px;
+  color: grey;
+  margin-bottom: 2em;
+}
+
+@keyframes slide {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-7680px, 0, 0);
+  }
+}
+@keyframes bgScroll {
+  from {
+    background-position-x: 0%;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}
+@keyframes upIn {
+  from {
+    top: 400px;
+    opacity: 0;
+  }
+  to {
+    top: 0px;
+    opacity: 1;
+  }
+}
