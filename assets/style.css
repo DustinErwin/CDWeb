@@ -5,9 +5,9 @@ body {
   scrollbar-width: none;
   background-image: url("../assets/images/bgImages/tyrannyOfDragons.jpg");
   background-attachment: fixed;
-  background-position: center;
+  background-position: center 4em;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 94%;
 }
 
 -webkit-scrollbar.body {
@@ -96,10 +96,9 @@ li a:hover {
   max-height: 500px;
   min-height: 500px;
   background-color: #000000;
-
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 50%;
+  background-size: 50% 100%;
 }
 
 .rpg-info {
@@ -113,49 +112,42 @@ li a:hover {
 #inbetweenone {
   border: #000000 solid 2px;
   background-image: url("./images/bgImages/DnD.jpg");
-
   min-height: 600px;
-  max-height: 80%;
+  background-position: center 4em;
   background-attachment: fixed;
-  background-position: left;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 94%;
 }
 
 #inbetweentwo {
   border: #000000 solid 2px;
   background-image: url("./images/bgImages/strixhaven.jpg");
-
   min-height: 600px;
-
   background-attachment: fixed;
-  background-position: left;
+  background-position: center 4em;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 94%;
 }
 
 #inbetweenthree {
   border: #000000 solid 2px;
+
   background-image: url("./images/bgImages/warhammer.jpg");
-
   min-height: 600px;
-
   background-attachment: fixed;
-  background-position: left;
+  background-position: center 4em;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 94%;
 }
 
 #inbetweenfour {
   border: #000000 solid 2px;
-  background-image: url("./images/bgImages/chromaticDragon.png");
-
+  background-image: url("./images/bgImages/board_games.jpg");
   min-height: 600px;
-
   background-attachment: fixed;
-  background-position: left;
+  background-position: center 4em;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 94%;
 }
 
 #board-start {
@@ -189,7 +181,7 @@ li a:hover {
 
 #tabletop {
   border: #000000 solid 2px;
-  background-image: url("./images/ageOfSigmar/Sigmar\ Sauron.jpg");
+  background-image: url("./images/tableTop/Sigmar\ Sauron.jpg");
   max-height: 500px;
   min-height: 500px;
   background-color: #000000;
@@ -239,11 +231,9 @@ li a:hover {
 
 #events {
   border: #000000 solid 2px;
-  background-image: url("./images/alliedForces/WW2\ War\ Game.jpg");
-
+  background-image: url("./images/events/WW2\ War\ Game.jpg");
   min-height: 500px;
   background-color: #000000;
-  background-attachment: fixed;
   background-position: left;
   background-repeat: no-repeat;
   background-size: 50%;
