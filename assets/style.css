@@ -181,7 +181,7 @@ li a:hover {
 
 #tabletop {
   border: #000000 solid 2px;
-  background-image: url("./images/tableTop/Sigmar\ Sauron.jpg");
+  background-image: url("./images/tableTop/Sigmar_Sauron.jpg");
   max-height: 500px;
   min-height: 500px;
   background-color: #000000;
@@ -206,7 +206,7 @@ li a:hover {
 
 #card {
   border: #000000 solid 2px;
-  background-image: url("./images/magicTheGathering/Friday\ Night\ Magic.JPG");
+  background-image: url("./images/magicTheGathering/Friday_Night_Magic.JPG");
   max-height: 500px;
   min-height: 500px;
   background-color: #000000;
@@ -231,7 +231,7 @@ li a:hover {
 
 #events {
   border: #000000 solid 2px;
-  background-image: url("./images/events/WW2\ War\ Game.jpg");
+  background-image: url("./images/events/WW2_War_Game.jpg");
   min-height: 500px;
   background-color: #000000;
   background-position: left;
