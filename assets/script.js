@@ -13,9 +13,9 @@ function picChange() {
       rpgPic.style.backgroundImage =
         "url('./assets/images/rolePlaying/aliens.jpg')";
       mtgPic.style.backgroundImage =
-        "url('./assets/images/magicTheGathering/Friday_Night_Magic.jpg')";
+        "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')";
       tablePic.style.backgroundImage =
-        "url('./assets/images/tableTop/Sisters_of_Battle.jpg')";
+        "url('./assets/images/tableTop/Sisters_of_Battle.JPG')";
       boardPic.style.backgroundImage =
         "url('./assets/images/boardGames/smallworld.jpg')";
       carousel++;
@@ -24,9 +24,9 @@ function picChange() {
       rpgPic.style.backgroundImage =
         "url('./assets/images/rolePlaying/pathFinder.jpg')";
       mtgPic.style.backgroundImage =
-        "url('./assets/images/magicTheGathering/Friday_Night_Magic.jpg')";
+        "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')";
       tablePic.style.backgroundImage =
-        "url('./assets/images/tableTop/Bolt_Action_America.jpg')";
+        "url('./assets/images/tableTop/Bolt_Action_America.JPG')";
       boardPic.style.backgroundImage =
         "url('./assets/images/boardGames/scythe.jpg')";
       carousel++;
@@ -35,7 +35,7 @@ function picChange() {
       rpgPic.style.backgroundImage =
         "url('./assets/images/rolePlaying/theWitchBeyondTheWitchlight.jpg')";
       mtgPic.style.backgroundImage =
-        "url('./assets/images/magicTheGathering/Friday_Night_Magic.jpg')";
+        "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')";
       tablePic.style.backgroundImage =
         "url('./assets/images/tableTop/Sigmar_Sauron.jpg')";
       boardPic.style.backgroundImage =
