@@ -74,7 +74,7 @@ li a:hover {
   color: black;
   background-color: #500101;
 
-  font-size: xx-large;
+  font-size: 3em;
   bottom: 100px;
   -webkit-text-stroke: 1px rgb(255, 245, 230);
 }
@@ -285,11 +285,18 @@ a {
     background-size: auto;
   }
   .inbetween {
-    background-size: cover;
+    background-size: auto;
   }
 }
 
 @media screen and (max-width: 746px) {
+  .inbetween {
+    max-width: 746px;
+    background-position: center 4em;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 94%;
+  }
   .font-style {
     font-size: large;
   }
@@ -328,6 +335,13 @@ a {
 }
 
 @media screen and (max-width: 602px) {
+  .inbetween {
+    max-width: 602px;
+    background-position: center 4em;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 94%;
+  }
   #logo {
     width: 440px;
   }
@@ -337,6 +351,16 @@ a {
 }
 
 @media screen and (max-width: 440px) {
+  .inbetween {
+    max-width: 440px;
+    background-position: center 4em;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 94%;
+  }
+  .intro-phone {
+    font-size: 2em;
+  }
   #logo {
     width: 300px;
   }
