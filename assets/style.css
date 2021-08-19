@@ -38,9 +38,11 @@ li {
 
 li a {
   font-size: large;
+  text-align: center;
+  font-family: "Fondamento";
   color: rgb(170, 170, 170);
   margin: auto;
-  padding: 14px 16px;
+  padding: 5px 5px;
   text-decoration: none;
 }
 
@@ -69,17 +71,19 @@ li a:hover {
   padding: 1%;
   text-align: center;
   font-family: "Fondamento";
-  color: #000000;
+  color: black;
   background-color: #500101;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
   font-size: xx-large;
   bottom: 100px;
+  -webkit-text-stroke: 1px rgb(255, 245, 230);
+}
+
+#logo {
+  border-radius: 50%;
 }
 
 .intro-info {
-  font-size: xx-large;
   background-color: #500101;
   display: flex;
   justify-content: center;
@@ -91,8 +95,29 @@ li a:hover {
   padding: 2%;
 }
 
-#logo {
-  border-radius: 50%;
+.inbetween {
+  border: #000000 solid 2px;
+  min-height: 600px;
+  background-position: center 4em;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 94%;
+}
+
+.bg-one {
+  background-image: url("./images/bgImages/DnD.jpg");
+}
+
+.bg-two {
+  background-image: url("./images/bgImages/strixhaven.jpg");
+}
+
+.bg-three {
+  background-image: url("./images/bgImages/warhammer.jpg");
+}
+
+.bg-four {
+  background-image: url("./images/bgImages/board_games.jpg");
 }
 
 #rpg-start {
@@ -100,64 +125,25 @@ li a:hover {
   top: -12em;
 }
 
-#rpg {
+.feature-card {
   border: #000000 solid 4px;
-  background-image: url("./images/rolePlaying/theWitchBeyondTheWitchlight.jpg");
   max-height: 500px;
   min-height: 500px;
   background-color: #000000;
-  background-position: left;
   background-repeat: no-repeat;
   background-size: 50%;
 }
 
+#rpg {
+  background-image: url("./images/rolePlaying/theWitchBeyondTheWitchlight.jpg");
+  background-position: left;
+}
+
 .rpg-info {
   border-left: #000000 solid 2px;
-  font-size: xx-large;
   background-color: #500101;
   min-height: 500px;
   margin: 0 0 0 50%;
-}
-
-#inbetweenone {
-  border: #000000 solid 2px;
-  background-image: url("./images/bgImages/DnD.jpg");
-  min-height: 600px;
-  background-position: center 4em;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: 100% 94%;
-}
-
-#inbetweentwo {
-  border: #000000 solid 2px;
-  background-image: url("./images/bgImages/strixhaven.jpg");
-  min-height: 600px;
-  background-attachment: fixed;
-  background-position: center 4em;
-  background-repeat: no-repeat;
-  background-size: 100% 94%;
-}
-
-#inbetweenthree {
-  border: #000000 solid 2px;
-
-  background-image: url("./images/bgImages/warhammer.jpg");
-  min-height: 600px;
-  background-attachment: fixed;
-  background-position: center 4em;
-  background-repeat: no-repeat;
-  background-size: 100% 94%;
-}
-
-#inbetweenfour {
-  border: #000000 solid 2px;
-  background-image: url("./images/bgImages/board_games.jpg");
-  min-height: 600px;
-  background-attachment: fixed;
-  background-position: center 4em;
-  background-repeat: no-repeat;
-  background-size: 100% 94%;
 }
 
 #board-start {
@@ -169,7 +155,6 @@ li a:hover {
   border: #000000 solid 2px;
   background-image: url("./images/boardGames/catan.jpg");
   max-height: 500px;
-  min-height: 500px;
   background-color: #000000;
   background-position: right;
   background-repeat: no-repeat;
@@ -178,7 +163,6 @@ li a:hover {
 
 .board-info {
   border-right: #000000 solid 2px;
-  font-size: xx-large;
   background-color: #500101;
   min-height: 500px;
   margin: 0 50% 0 0;
@@ -193,9 +177,7 @@ li a:hover {
   border: #000000 solid 2px;
   background-image: url("./images/tableTop/Sigmar_Sauron.jpg");
   max-height: 500px;
-  min-height: 500px;
   background-color: #000000;
-
   background-position: left;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -203,7 +185,6 @@ li a:hover {
 
 .table-info {
   border-left: #000000 solid 2px;
-  font-size: xx-large;
   background-color: #500101;
   min-height: 500px;
   margin: 0 0 0 50%;
@@ -218,9 +199,7 @@ li a:hover {
   border: #000000 solid 2px;
   background-image: url("./images/magicTheGathering/Friday_Night_Magic.JPG");
   max-height: 500px;
-  min-height: 500px;
   background-color: #000000;
-
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -228,7 +207,6 @@ li a:hover {
 
 .card-info {
   border-right: #000000 solid 2px;
-  font-size: xx-large;
   background-color: #500101;
   min-height: 500px;
   margin: 0 50% 0 0;
@@ -242,7 +220,6 @@ li a:hover {
 #events {
   border: #000000 solid 2px;
   background-image: url("./images/events/WW2_War_Game.jpg");
-  min-height: 500px;
   background-color: #000000;
   background-position: left;
   background-repeat: no-repeat;
@@ -251,7 +228,6 @@ li a:hover {
 
 .event-info {
   border-left: #000000 solid 2px;
-  font-size: xx-large;
   background-color: #500101;
   min-height: 500px;
   margin: 0 0 0 50%;
@@ -259,12 +235,9 @@ li a:hover {
 
 #about {
   border: #000000 solid 2px;
-
   background-image: url("./images/scott.png"), url("./images/jeremy.jpg");
-
   min-height: 600px;
   background-color: #000000;
-
   background-position: left center, right center;
   background-repeat: no-repeat;
   background-size: 23%;
@@ -273,30 +246,14 @@ li a:hover {
 .about-info {
   border-left: #000000 solid 2px;
   border-right: #000000 solid 2px;
-  font-size: xx-large;
   background-color: #500101;
   min-height: 600px;
   width: 50%;
   margin: auto;
 }
 
-.project:hover > .hide {
-  display: block;
-}
-
 a {
   text-decoration: none;
-}
-
-.hide {
-  margin: 0;
-  display: none;
-}
-
-.project:hover > .project-link {
-  border: solid 4px rgb(76, 18, 236);
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
 }
 
 .move-in {
@@ -308,6 +265,7 @@ a {
 }
 
 .font-style {
+  font-size: xx-large;
   text-align: center;
   font-family: "Fondamento";
   color: rgb(255, 245, 230);
@@ -322,7 +280,104 @@ a {
   margin-bottom: 2em;
 }
 
+@media screen and (max-width: 1500px) {
+  body {
+    background-size: auto;
+  }
+  .inbetween {
+    background-size: cover;
+  }
+}
+
 @media screen and (max-width: 746px) {
+  .font-style {
+    font-size: large;
+  }
+  li a {
+    font-size: medium;
+  }
+  .feature-card {
+    max-height: 300px;
+    min-height: 300px;
+  }
+  .rpg-info {
+    min-height: 300px;
+  }
+  .card-info {
+    min-height: 300px;
+  }
+  .board-info {
+    min-height: 300px;
+  }
+  .event-info {
+    min-height: 300px;
+  }
+  .table-info {
+    min-height: 300px;
+  }
+  .inbetween {
+    min-height: 300px;
+    max-height: 300px;
+  }
+  #about {
+    min-height: 325px;
+  }
+  .about-info {
+    min-height: 325px;
+  }
+}
+
+@media screen and (max-width: 602px) {
+  #logo {
+    width: 440px;
+  }
+  .intro {
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  #logo {
+    width: 300px;
+  }
+  .intro {
+    max-height: 300px;
+  }
+  .font-style {
+    font-size: smaller;
+  }
+  li a {
+    font-size: x-small;
+  }
+  .feature-card {
+    max-height: 250px;
+    min-height: 250px;
+  }
+  .rpg-info {
+    min-height: 250px;
+  }
+  .card-info {
+    min-height: 250px;
+  }
+  .board-info {
+    min-height: 250px;
+  }
+  .event-info {
+    min-height: 250px;
+  }
+  .table-info {
+    min-height: 250px;
+  }
+  .inbetween {
+    min-height: 250px;
+    max-height: 250px;
+  }
+  #about {
+    min-height: 275px;
+  }
+  .about-info {
+    min-height: 275px;
+  }
 }
 
 @keyframes slide {
