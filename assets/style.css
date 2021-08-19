@@ -57,22 +57,32 @@ li a:hover {
 }
 
 .intro {
-  opacity: 0.9;
   background-color: #500101;
   display: flex;
   justify-content: center;
   align-items: center;
 
-  height: 900px;
+  height: 600px;
+}
+
+.intro-phone {
+  padding: 1%;
+  text-align: center;
+  font-family: "Fondamento";
+  color: #000000;
+  background-color: #500101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  bottom: 100px;
 }
 
 .intro-info {
-  opacity: 0.9;
   font-size: xx-large;
   background-color: #500101;
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .info {
@@ -98,7 +108,7 @@ li a:hover {
   background-color: #000000;
   background-position: left;
   background-repeat: no-repeat;
-  background-size: 50% 100%;
+  background-size: 50%;
 }
 
 .rpg-info {
@@ -310,6 +320,9 @@ a {
   height: 3px;
   color: grey;
   margin-bottom: 2em;
+}
+
+@media screen and (max-width: 746px) {
 }
 
 @keyframes slide {
