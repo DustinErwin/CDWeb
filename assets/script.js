@@ -39,7 +39,7 @@ function picChange() {
       tablePic.style.backgroundImage =
         "url('./assets/images/tableTop/Sigmar_Sauron.jpg')";
       boardPic.style.backgroundImage =
-        "url('./assets/images/boardGames/catan.jpg')";
+        "url('./assets/images/boardGames/ticket_to_ride.jpg')";
       carousel = 1;
       break;
   }
