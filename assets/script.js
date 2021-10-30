@@ -1,45 +1,62 @@
-const rpgPic = document.querySelector("#rpg");
-const mtgPic = document.querySelector("#card");
-const tablePic = document.querySelector("#tabletop");
-const boardPic = document.querySelector("#board");
-const eventPic = document.querySelector("#events");
-let picShift = setInterval(picChange, 7000);
+const rpgLoadedImage = document.querySelector("#rpg");
+const mtgLoadedImage = document.querySelector("#card");
+const tableLoadedImage = document.querySelector("#tabletop");
+const boardLoadedImage = document.querySelector("#board");
+const eventLoadedImage = document.querySelector("#events");
+
+//Card Images
+const images = {
+  //Role Playing Games
+  rpg: [
+    "url('./assets/images/rolePlaying/aliens.jpg')",
+    "url('./assets/images/rolePlaying/pathFinder.jpg')",
+    "url('./assets/images/rolePlaying/theWitchBeyondTheWitchlight.jpg')",
+  ],
+  //Magic the Gathering
+  mtg: [
+    "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')",
+    "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')",
+    "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')",
+  ],
+  //Table Top games
+  table: [
+    "url('./assets/images/tableTop/Sisters_of_Battle.JPG')",
+    "url('./assets/images/tableTop/Bolt_Action_America.JPG')",
+    "url('./assets/images/tableTop/Sigmar_Sauron.jpg')",
+  ],
+  //Board Games
+  board: [
+    "url('./assets/images/boardGames/smallworld.jpg')",
+    "url('./assets/images/boardGames/scythe.jpg')",
+    "url('./assets/images/tableTop/Sigmar_Sauron.jpg')",
+  ],
+};
+//Timer for image change in the cards
+let picShift = setInterval(loadImages, 7000);
 let carousel = 1;
 
 //Changes pics throughout page
-function picChange() {
+function loadImages() {
   switch (carousel) {
     case 1:
-      rpgPic.style.backgroundImage =
-        "url('./assets/images/rolePlaying/aliens.jpg')";
-      mtgPic.style.backgroundImage =
-        "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')";
-      tablePic.style.backgroundImage =
-        "url('./assets/images/tableTop/Sisters_of_Battle.JPG')";
-      boardPic.style.backgroundImage =
-        "url('./assets/images/boardGames/smallworld.jpg')";
+      rpgLoadedImage.style.backgroundImage = images.rpg[carousel - 1];
+      mtgLoadedImage.style.backgroundImage = images.mtg[carousel - 1];
+      tableLoadedImage.style.backgroundImage = images.table[carousel - 1];
+      boardLoadedImage.style.backgroundImage = images.board[carousel - 1];
       carousel++;
       break;
     case 2:
-      rpgPic.style.backgroundImage =
-        "url('./assets/images/rolePlaying/pathFinder.jpg')";
-      mtgPic.style.backgroundImage =
-        "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')";
-      tablePic.style.backgroundImage =
-        "url('./assets/images/tableTop/Bolt_Action_America.JPG')";
-      boardPic.style.backgroundImage =
-        "url('./assets/images/boardGames/scythe.jpg')";
+      rpgLoadedImage.style.backgroundImage = images.rpg[carousel - 1];
+      mtgLoadedImage.style.backgroundImage = images.mtg[carousel - 1];
+      tableLoadedImage.style.backgroundImage = images.table[carousel - 1];
+      boardLoadedImage.style.backgroundImage = images.board[carousel - 1];
       carousel++;
       break;
     case 3:
-      rpgPic.style.backgroundImage =
-        "url('./assets/images/rolePlaying/theWitchBeyondTheWitchlight.jpg')";
-      mtgPic.style.backgroundImage =
-        "url('./assets/images/magicTheGathering/Friday_Night_Magic.JPG')";
-      tablePic.style.backgroundImage =
-        "url('./assets/images/tableTop/Sigmar_Sauron.jpg')";
-      boardPic.style.backgroundImage =
-        "url('./assets/images/boardGames/ticket_to_ride.jpg')";
+      rpgLoadedImage.style.backgroundImage = images.rpg[carousel - 1];
+      mtgLoadedImage.style.backgroundImage = images.mtg[carousel - 1];
+      tableLoadedImage.style.backgroundImage = images.table[carousel - 1];
+      boardLoadedImage.style.backgroundImage = images.board[carousel - 1];
       carousel = 1;
       break;
   }
