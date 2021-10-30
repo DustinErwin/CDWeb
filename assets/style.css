@@ -1,9 +1,16 @@
+:root {
+  --primary-color: #500101;
+  --secondary-color: #000000;
+  --text-color: rgb(170, 170, 170);
+  --bodyBackgroundImage: url("../assets/images/bgImages/tyrannyOfDragons.jpg");
+}
+
 body {
-  background-color: #000000;
+  background-color: var(--secondary-color);
   margin: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  background-image: url("../assets/images/bgImages/tyrannyOfDragons.jpg");
+  background-image: var(--bodyBackgroundImage);
   background-attachment: fixed;
   background-position: center 4em;
   background-repeat: no-repeat;
@@ -27,9 +34,8 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   list-style-type: none;
-
   overflow: hidden;
-  background-color: #500101;
+  background-color: var(--primary-color);
 }
 
 li {
@@ -40,7 +46,7 @@ li a {
   font-size: large;
   text-align: center;
   font-family: "Fondamento";
-  color: rgb(170, 170, 170);
+  color: var(--text-color);
   margin: auto;
   padding: 5px 5px;
   text-decoration: none;
@@ -59,7 +65,7 @@ li a:hover {
 }
 
 .intro {
-  background-color: #500101;
+  background-color: var(--primary-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +78,7 @@ li a:hover {
   text-align: center;
   font-family: "Fondamento";
   color: black;
-  background-color: #500101;
+  background-color: var(--primary-color);
 
   font-size: 3em;
   bottom: 100px;
@@ -84,7 +90,7 @@ li a:hover {
 }
 
 .intro-info {
-  background-color: #500101;
+  background-color: var(--primary-color);
   display: flex;
   justify-content: center;
 }
@@ -96,7 +102,7 @@ li a:hover {
 }
 
 .inbetween {
-  border: #000000 solid 2px;
+  border: var(--secondary-color) solid 2px;
   min-height: 600px;
   background-position: center 4em;
   background-attachment: fixed;
@@ -126,10 +132,10 @@ li a:hover {
 }
 
 .feature-card {
-  border: #000000 solid 4px;
+  border: var(--secondary-color) solid 4px;
   max-height: 500px;
   min-height: 500px;
-  background-color: #000000;
+  background-color: var(--secondary-color);
   background-repeat: no-repeat;
   background-size: 50%;
 }
@@ -140,8 +146,8 @@ li a:hover {
 }
 
 .rpg-info {
-  border-left: #000000 solid 2px;
-  background-color: #500101;
+  border-left: var(--secondary-color) solid 2px;
+  background-color: var(--primary-color);
   min-height: 500px;
   margin: 0 0 0 50%;
 }
@@ -152,18 +158,18 @@ li a:hover {
 }
 
 #board {
-  border: #000000 solid 2px;
+  border: var(--secondary-color) solid 2px;
   background-image: url("./images/boardGames/catan.jpg");
   max-height: 500px;
-  background-color: #000000;
+  background-color: var(--secondary-color);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
 }
 
 .board-info {
-  border-right: #000000 solid 2px;
-  background-color: #500101;
+  border-right: var(--secondary-color) solid 2px;
+  background-color: var(--primary-color);
   min-height: 500px;
   margin: 0 50% 0 0;
 }
@@ -174,18 +180,18 @@ li a:hover {
 }
 
 #tabletop {
-  border: #000000 solid 2px;
+  border: var(--secondary-color) solid 2px;
   background-image: url("./images/tableTop/Sigmar_Sauron.jpg");
   max-height: 500px;
-  background-color: #000000;
+  background-color: var(--secondary-color);
   background-position: left;
   background-repeat: no-repeat;
   background-size: 50%;
 }
 
 .table-info {
-  border-left: #000000 solid 2px;
-  background-color: #500101;
+  border-left: var(--secondary-color) solid 2px;
+  background-color: var(--primary-color);
   min-height: 500px;
   margin: 0 0 0 50%;
 }
@@ -196,18 +202,18 @@ li a:hover {
 }
 
 #card {
-  border: #000000 solid 2px;
+  border: var(--secondary-color) solid 2px;
   background-image: url("./images/magicTheGathering/Friday_Night_Magic.JPG");
   max-height: 500px;
-  background-color: #000000;
+  background-color: var(--secondary-color);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
 }
 
 .card-info {
-  border-right: #000000 solid 2px;
-  background-color: #500101;
+  border-right: var(--secondary-color) solid 2px;
+  background-color: var(--primary-color);
   min-height: 500px;
   margin: 0 50% 0 0;
 }
@@ -218,35 +224,35 @@ li a:hover {
 }
 
 #events {
-  border: #000000 solid 2px;
+  border: var(--secondary-color) solid 2px;
   background-image: url("./images/events/WW2_War_Game.jpg");
-  background-color: #000000;
+  background-color: var(--secondary-color);
   background-position: left;
   background-repeat: no-repeat;
   background-size: 50%;
 }
 
 .event-info {
-  border-left: #000000 solid 2px;
-  background-color: #500101;
+  border-left: var(--secondary-color) solid 2px;
+  background-color: var(--primary-color);
   min-height: 500px;
   margin: 0 0 0 50%;
 }
 
 #about {
-  border: #000000 solid 2px;
+  border: var(--secondary-color) solid 2px;
   background-image: url("./images/scott.png"), url("./images/jeremy.jpg");
   min-height: 600px;
-  background-color: #000000;
+  background-color: var(--secondary-color);
   background-position: left center, right center;
   background-repeat: no-repeat;
   background-size: 23%;
 }
 
 .about-info {
-  border-left: #000000 solid 2px;
-  border-right: #000000 solid 2px;
-  background-color: #500101;
+  border-left: var(--secondary-color) solid 2px;
+  border-right: var(--secondary-color) solid 2px;
+  background-color: var(--primary-color);
   min-height: 600px;
   width: 50%;
   margin: auto;
